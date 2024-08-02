@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #556aa78b;
+    color: #fefefe;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.363);
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #ece9e9;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.agricultura {
+    background-color: #ffffff;
+}
+
+.cidade {
+    background-color: #ffffff;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.img_menu{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 400px;
+}
+
+
+.beneficios{
+    /*background-color: #45a049;*/
+    height: 800px;
+}
+
+.beneficios h1{
+    width: 100%;
+    font-size: 44px;
+}
+
+.beneficios_container{
+    display: flex;
+    /*background-color: #45a049;*/
+}
+
+.beneficios_container .texto{
+    border-radius: 7px;
+    width: 50%;
+    font-size: 25px;
+}
+
+.beneficios_container .cx_imagem{
+    /*background-color: #333;*/
+    width: 50%;
+    margin-left: 200px;
+    align-items: center;
+    height: 200PX;
+}
+
+.beneficios_container .imagem{
+    border-radius: 37px;
+    width: 600px;
+}
+
+/*-----------------------------------------------*/
+.dicas{
+    /*background-color: #45a049;*/
+    height: 800px;
+}
+
+.dicas h1{
+    width: 100%;
+    font-size: 44px;
+}
+
+.dicas_container{
+    display: flex;
+    /*background-color: #45a049;*/
+}
+
+.dicas_container .texto{
+    border-radius: 7px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.dicas_container .cx_imagem{
+    /*background-color: #333;*/
+    margin-left: 200px;
+    align-items: center;   
+}
+
+.dicas_container .imagem{
+    border-radius: 37px;
+    width: 600px;
+}
